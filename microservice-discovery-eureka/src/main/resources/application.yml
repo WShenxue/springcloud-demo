@@ -1,5 +1,10 @@
 server:
   port: 8761
+
+spring:
+ application:
+  name: microservice-discovery-eureka
+
 erueka:
   client:
     registerWithEureka: false
