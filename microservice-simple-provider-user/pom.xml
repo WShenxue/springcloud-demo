@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.shenxue</groupId>
-	<artifactId>springcloud-simple-provider-user </artifactId>
+	<artifactId>microservice-simple-provider-user </artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springcloud-simple-provider-user</name>
+	<name>microservice-simple-provider-user</name>
 	<description>Demo project for Spring Boot</description>
 
 
