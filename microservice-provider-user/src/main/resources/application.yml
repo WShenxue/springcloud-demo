@@ -21,7 +21,7 @@ logging:                                # 配置日志级别，让hibernate打�
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://peer2:8762/eureka/
+      defaultZone: http://user:password123@localhost:8763/eureka/
   instance:
     prefer-ip-address: true
     ## 将自己的ip注册到Eureka Server上;未配置或为false表示将为服务所在操作系统的hostname注册到Eureka server.
