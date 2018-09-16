@@ -1,0 +1,21 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: microservice-consumer-movie
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/,http://user:password123@localhost:8763/eureka/,http://peer1:8761/eureka/,http://peer2:8762/eureka/
+  instance:
+   prefer-ip-address: true
+
+
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
