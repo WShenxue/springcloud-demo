@@ -26,7 +26,7 @@ eureka:
   instance:
     prefer-ip-address: true
     ## 将自己的ip注册到Eureka Server上;未配置或为false表示将为服务所在操作系统的hostname注册到Eureka server.
-    metsdata-map:
+    metadata-map:
       # 自定义的元数据，key/value都可以随便定义
       my-metadata: ariel metadata
 ## INFO
