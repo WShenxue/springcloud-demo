@@ -1,0 +1,20 @@
+server:
+  port: 9004
+
+spring:
+  application:
+    name: microservice-consumer-movie-ribbon
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+   prefer-ip-address: true
+
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
