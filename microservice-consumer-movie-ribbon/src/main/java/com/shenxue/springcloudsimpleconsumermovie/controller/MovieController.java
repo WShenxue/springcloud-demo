@@ -25,8 +25,9 @@ public class MovieController {
 
     @GetMapping("/user/{id}")
     public User findById(@PathVariable Long id) {
-        return this.restTemplate.getForObject("http://localhost:9003/" + id, User.class);
-//        return this.restTemplate.getForObject("MICROSERVICE-PROVIDER-USER/" + id, User.class);
+//        return this.restTemplate.getForObject("http://localhost:9003/" + id, User.class);
+        // 注意：Eureka中需要用实例名来调用服务，ip:port无效
+        return this.restTemplate.getForObject("http://MICROSERVICE-PROVIDER-USER/" + id, User.class);
     }
 
     @GetMapping("/log-user-instance")
