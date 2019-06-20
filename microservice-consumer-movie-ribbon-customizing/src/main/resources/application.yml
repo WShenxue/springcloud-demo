@@ -1,9 +1,9 @@
 server:
-  port: 9500
+  port: 9501
 
 spring:
   application:
-    name: microservice-consumer-movie-ribbon
+    name: microservice-consumer-movie-ribbon-customizing
 eureka:
   client:
     serviceUrl:
